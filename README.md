@@ -1,1 +1,2 @@
-##Calendar
+## Calendar
+### using simple vanilla js
