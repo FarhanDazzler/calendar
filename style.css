@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(45deg,#1d0000,#20205b);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.calendar{
+    width: 400px;
+    height:300px;
+    background-color: beige;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.left,.right{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.right{
+    background-color: red;
+    color: white;
+    width: 42%;
+    border-radius: 0 10px 10px 0;
+}
+
+.left{
+    width:58%
+}
+
+#date{
+    font-size: 80px;
+}
